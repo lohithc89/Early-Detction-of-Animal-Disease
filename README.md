@@ -4,3 +4,8 @@ This study proposes a machine-learning-based framework for early animal disease 
 •	Offer immediate intelligent advice in low-resource settings.
 •	Diminish the reliance on physical means for testing in routine or preliminary investigations.
 The proposed framework complements traditional diagnostic approaches by providing a rapid and scalable decision-support mechanism. 
+
+
+The dataset was compiled from veterinary case records collected from livestock farms and veterinary practitioners. Disease labels were assigned based on clinical examination, veterinary diagnosis, and recorded disease outcomes. Each case was reviewed according to standard veterinary diagnostic procedures, including symptom assessment and clinical observations. The target variable (Disease_Prediction) therefore represents the diagnosed disease recorded for each animal case. Currently, there is no widely accepted benchmark dataset containing symptom-level information covering multiple animal diseases across different livestock species. Most publicly available datasets focus on specific diseases, individual species, or sensor-based measurements. Therefore, the present study utilized the available symptom-based dataset to investigate the feasibility of machine learning for multi-class animal disease prediction.
+The original cleaned dataset contained 431 animal cases described by 21 predictor variables and one target variable (Disease_Prediction), resulting in a total of 22 attributes. The predictor variables included demographic information (animal type, breed, age, gender, and weight), symptom indicators, clinical observations, and physiological measurements such as body temperature and heart rate. The target variable represented the diagnosed disease category.
+
